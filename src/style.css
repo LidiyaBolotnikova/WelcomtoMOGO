@@ -1,15 +1,15 @@
-.body{
-    margin: 0px;
+body{
+    margin: 0;
+
 }
 .page-one{
     background-image: url(images/Layer15.png);
     width: 100%;
-    height: 1000px;
+   /* height: 1000px;*/
 }
 .page-one-header{
 display: flex;
     justify-content: space-between;
-
     padding-top: 2%;
     margin-left: 18%;
     margin-right: 18%;
@@ -17,37 +17,37 @@ display: flex;
 .menu{
     display:inline-flex;
 }
-.menu-image-1{
+.menu-text-1{
     margin-top: 10px;
     margin-right: 45px;
     width: 51px;
     height: 10px;
-    background-image: url("images/About.png");
-
+   /* background-image: url("images/About.png");*/
+     color:white;
 }
-.menu-image-2{
+.menu-text-2{
     margin-top: 10px;
     margin-right: 45px;
     width: 60px;
     height: 10px;
-    background-image: url("images/service.png");
-
+   /* background-image: url("images/service.png");*/
+    color:white;
 }
-.menu-image-3{
+.menu-text-3{
     margin-top: 10px;
     margin-right: 45px;
     width: 46px;
     height: 10px;
-    background-image: url("images/work.png");
-
+  /*  background-image: url("images/work.png");*/
+    color:white;
 }
-.menu-image-4{
+.menu-text-4{
     margin-top: 10px;
     margin-right: 45px;
     width: 38px;
     height: 10px;
-    background-image: url("images/blog.png");
-
+   /* background-image: url("images/blog.png");*/
+    color:white;
 }
 .menu-image-5{
     margin-top: 10px;
@@ -64,21 +64,33 @@ display: flex;
     height: 18px;
     background-image: url("images/MAGNIFYINGGLASS.png");
 }
-.page-one-center-image1{
-    background-image: url("images/Creative Template.png");
+.page-one-center-text1{
+    /*background-image: url("images/Creative Template.png");*/
     width: 508px;
     height: 87px;
     margin-top: 8%;
     margin-left: 40%;
-    margin-right: 48%;
+    /*margin-right: 48%;*/
+    color:white;
+    font-size: 70px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
 }
-.page-one-center-image2{
-    background-image: url("images/Welcome to MoGo.png");
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+ font-family: 'Kaushan Script', cursive;*/
+.page-one-center-text2{
+   /* background-image: url("images/Welcome to MoGo.png");*/
     width: 802px;
     height: 248px;
     margin-left: 32%;
-    margin-right: 48%;
+    /*margin-right: 48%;*/
     margin-top: 55px;
+    color:white;
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
 }
 .page-one-center-rectangle5copy2{
     background-image: url("images/Rectangle 5 copy 2.png");
@@ -96,11 +108,14 @@ display: flex;
      margin-top: 55px;
 }
 .page-one-center-rectangle-learn{
-    background-image: url("images/Learn more.png");
+    /*background-image: url("images/Learn more.png");
     width: 95px;
-    height: 11px;
-    margin-left: 20%;
-    margin-top: 5px;
+    height: 11px;*/
+    text-align: center;
+   /* margin-top: 5px;*/
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
 }
 .page-one-footer1{
     display: inline-flex;
@@ -110,6 +125,7 @@ display: flex;
 .intro1{
     display: inline-flex;
     margin-right: 30px;
+
 }
 .page-one-footer-redrectangle{
     background-image: url("images/Rectangle 4 copy.png");
@@ -133,26 +149,168 @@ display: flex;
     margin-top: 4%;
 }
 .page-one-footer2-01{
-    background-image:url("images/01 Intro.png");
+   /* background-image:url("images/01 Intro.png");*/
     width: 89px;
     height: 17px;
-    margin-right: 290px;
+   /* margin-right: 10px;*/
+    color:white;
+}
+.page-one-footer2-intro{
+    margin-right: 50%;
+    color:white;
 }
 .page-one-footer2-02{
-    background-image: url("images/02 Work.png");
+    /*background-image: url("images/02 Work.png");*/
     width: 95px;
     height: 17px;
-    margin-right: 220px;
+   /* margin-right: 220px;*/
+    color:white;
+    /*margin-left: 100px;*/
 }
+.page-one-footer2-work{
+    margin-right: 35%;
+    color:white;
+ }
 .page-one-footer2-03{
-    background-image: url("images/03 About.png");
+   /* background-image: url("images/03 About.png");*/
     width: 100px;
     height: 18px;
-    margin-right: 210px;
+    /*margin-right: 210px;*/
+    color:white;
 }
+.page-one-footer2-about{
+    margin-right: 40%;
+    color:white;
+}
+
 .page-one-footer2-04{
-    background-image: url("images/04 Contacts.png");
+    /*background-image: url("images/04 Contacts.png");*/
     width: 133px;
     height: 17px;
-    margin-right: 250px;
+    /*margin-right: 250px;*/
+    color:white;
+
+}
+.page-one-footer2-CONTACTS{
+    margin-right: 50%;
+    color:white;
+}
+.page-two{
+    background-color: white;
+    width: 100%;
+   /* height: 950px;*/
+}
+.red-rectangle{
+    background-image: url("images/Rectangle 5.png");
+    width: 60px;
+    height: 3px;
+    /*margin-left: 40%;*/
+    margin-left: 48%;
+    margin-top: 2%;
+}
+.bloc3{
+    width: 100%;
+}
+.bloc3-img1{
+    background-image: url("images/Layer 44.png");
+    width: 380px;
+    height: 250px;
+    margin-right: 10%;
+}
+.bloc3-img1-users{
+    background-image: url("images/USERS.png");
+    width: 32px;
+    height: 23px;
+
+}
+.bloc3-img2{
+    background-image: url("images/Layer 39.png");
+    width: 380px;
+    height: 250px;
+    margin-right: 10%;
+}
+.bloc3-img3{
+    background-image: url("images/Layer 41.png");
+    width: 380px;
+    height: 250px;
+    margin-right: 10%;
+}
+.bloc5{
+    background-image: url("images/Rectangle 7.png");
+    width: 100%;
+    height: 270px;
+    display: grid;
+}
+.number{
+    color:white;
+    font-size: larger;
+}
+.number-text{
+    color:white;
+    font-size: larger;
+}
+.page-two-header-text1{
+    /*margin-left: 40%;*/
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 5%;
+    font-size: 30px;
+}
+.page-two-header-text2{
+    /*margin-left: 38%;*/
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.page-two-header-text3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:gray;
+    margin-top:3%;
+}
+.bloc3{
+    margin-top: 5%;
+    display: inline-flex;
+    margin-bottom: 5%;
+}
+.bloc5-1{
+    display: inline-flex;
+    width: 100%;
+}
+.bloc5-2{
+    display: inline-flex;
+    width: 100%;
+}
+.number-text{
+     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.number{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 95px;
+}
+.page-three-header-text1{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 5%;
+    font-size: 30px;
+}
+.page-three-header-text2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.img1{
+    background-image: url("images/ALARM.png");
+    height: 31px;
+    width: 32px;
+}
+.img2{
+    background-image: url("images/LINE GRAPH.png");
+    height: 32px;
+    width: 32px;
+
 }
