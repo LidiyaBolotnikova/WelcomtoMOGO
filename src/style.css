@@ -5,14 +5,15 @@ body{
 .page-one{
     background-image: url(images/Layer15.png);
     width: 100%;
+    background-size: cover;
    /* height: 1000px;*/
 }
 .page-one-header{
-display: flex;
+    display: flex;
     justify-content: space-between;
-    padding-top: 2%;
-    margin-left: 18%;
-    margin-right: 18%;
+    padding-top: 20px;
+    padding-bottom: 5px;
+
 }
 .menu{
     display:inline-flex;
@@ -64,28 +65,34 @@ display: flex;
     height: 18px;
     background-image: url("images/MAGNIFYINGGLASS.png");
 }
+.page-one-center{
+    margin-bottom: 100px;
+
+ }
 .page-one-center-text1{
-    /*background-image: url("images/Creative Template.png");*/
+    /*background-image: url("images/Creative Template.png");
     width: 508px;
     height: 87px;
     margin-top: 8%;
-    margin-left: 40%;
+    margin-left: 40%;*/
     /*margin-right: 48%;*/
     color:white;
     font-size: 70px;
     font-family: 'Kaushan Script', cursive;
     text-align: center;
+    padding-top: 70px;
 }
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
  font-family: 'Kaushan Script', cursive;*/
 .page-one-center-text2{
-   /* background-image: url("images/Welcome to MoGo.png");*/
+   /* background-image: url("images/Welcome to MoGo.png");
     width: 802px;
     height: 248px;
     margin-left: 32%;
-    /*margin-right: 48%;*/
-    margin-top: 55px;
+    /*margin-right: 48%;
+    margin-top: 55px;*/
+padding-top: 2%;
     color:white;
     font-size: 100px;
     font-family: 'Montserrat', sans-serif;
@@ -96,16 +103,19 @@ font-family: 'Roboto', sans-serif;
     background-image: url("images/Rectangle 5 copy 2.png");
     width: 60px;
     height: 3px;
-    margin-left: 51%;
-    margin-right: 40%;
-    margin-top: 55px;
+   /* margin-left: 51%;*/
+    margin-right: 520px;
+    margin-left: 580px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+
  }
 .page-one-center-rectangle{
     background-image: url("images/Rectangle 12.png");
     width: 160px;
     height: 40px;
-    margin-left: 48.5%;
-     margin-top: 55px;
+    margin-left: 530px;
+    margin-top: 25px;
 }
 .page-one-center-rectangle-learn{
     /*background-image: url("images/Learn more.png");
@@ -119,8 +129,9 @@ font-family: 'Roboto', sans-serif;
 }
 .page-one-footer1{
     display: inline-flex;
-    margin-left: 17%;
-    margin-top: 7%;
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 .intro1{
     display: inline-flex;
@@ -135,7 +146,7 @@ font-family: 'Roboto', sans-serif;
 .page-one-footer-whiterectangle{
     background-image: url("images/Rectangle 4.png");
     height: 3px;
-    width: 280px;
+    width: 210px;
 }
 .page-one-center-rectangle4{
     background-image: url("images/Rectangle 41.png");
@@ -145,55 +156,78 @@ font-family: 'Roboto', sans-serif;
 }
 .page-one-footer2 {
     display: inline-flex;
-    margin-left: 17%;
-    margin-top: 4%;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 40px;
 }
 .page-one-footer2-01{
-   /* background-image:url("images/01 Intro.png");*/
+   /* background-image:url("images/01 Intro.png");
     width: 89px;
-    height: 17px;
+    height: 17px;*/
    /* margin-right: 10px;*/
     color:white;
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 .page-one-footer2-intro{
-    margin-right: 50%;
-    color:white;
+        color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: unset;
 }
 .page-one-footer2-02{
-    /*background-image: url("images/02 Work.png");*/
+    /*background-image: url("images/02 Work.png");
     width: 95px;
-    height: 17px;
+    height: 17px;*/
    /* margin-right: 220px;*/
     color:white;
     /*margin-left: 100px;*/
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
 }
 .page-one-footer2-work{
-    margin-right: 35%;
-    color:white;
+       color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: unset;
  }
 .page-one-footer2-03{
-   /* background-image: url("images/03 About.png");*/
+   /* background-image: url("images/03 About.png");
     width: 100px;
-    height: 18px;
+    height: 18px;*/
     /*margin-right: 210px;*/
     color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
 }
 .page-one-footer2-about{
-    margin-right: 40%;
     color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: unset;
 }
 
 .page-one-footer2-04{
-    /*background-image: url("images/04 Contacts.png");*/
+    /*background-image: url("images/04 Contacts.png");
     width: 133px;
-    height: 17px;
+    height: 17px;*/
     /*margin-right: 250px;*/
     color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
 
 }
 .page-one-footer2-CONTACTS{
-    margin-right: 50%;
-    color:white;
+     color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: unset;
 }
 .page-two{
     background-color: white;
@@ -208,14 +242,18 @@ font-family: 'Roboto', sans-serif;
     margin-left: 48%;
     margin-top: 2%;
 }
-.bloc3{
-    width: 100%;
+
+.wrapper-bloc3{
+    padding-right: 18%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 18%;
 }
 .bloc3-img1{
     background-image: url("images/Layer 44.png");
     width: 380px;
     height: 250px;
-    margin-right: 10%;
+
 }
 .bloc3-img1-users{
     background-image: url("images/USERS.png");
@@ -227,13 +265,13 @@ font-family: 'Roboto', sans-serif;
     background-image: url("images/Layer 39.png");
     width: 380px;
     height: 250px;
-    margin-right: 10%;
+
 }
 .bloc3-img3{
     background-image: url("images/Layer 41.png");
     width: 380px;
     height: 250px;
-    margin-right: 10%;
+
 }
 .bloc5{
     background-image: url("images/Rectangle 7.png");
@@ -256,23 +294,10 @@ font-family: 'Roboto', sans-serif;
     margin-top: 5%;
     font-size: 30px;
 }
-.page-two-header-text2{
-    /*margin-left: 38%;*/
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-}
-.page-two-header-text3{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color:gray;
-    margin-top:3%;
-}
 .bloc3{
-    margin-top: 5%;
     display: inline-flex;
-    margin-bottom: 5%;
+    justify-content: space-between;
+    width: 100%;
 }
 .bloc5-1{
     display: inline-flex;
@@ -291,17 +316,18 @@ font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 95px;
 }
-.page-three-header-text1{
+.header-text1{
     text-align: center;
     font-family: 'Kaushan Script', cursive;
-    margin-top: 5%;
+    padding-top: 5%;
     font-size: 30px;
 }
-.page-three-header-text2{
+.header-text2{
     text-align: center;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
+    padding: 1%;
 }
 .img1{
     background-image: url("images/ALARM.png");
@@ -313,4 +339,91 @@ font-family: 'Roboto', sans-serif;
     height: 32px;
     width: 32px;
 
+}
+.page-two-header-text3{
+    text-align: center;
+    color:gray;
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+}
+.number-text{
+    display: inline-flex;
+    margin-right: 5%;
+}
+.img3{
+    background-image: url("images/COMPUTER _ OK.png");
+    width: 32px;
+    height: 28px;
+}
+.img4{
+    background-image: url("images/BOOK 2.png");
+    width: 32px;
+    height: 32px;
+}
+.img5{
+    background-image: url("images/HOME.png");
+    width: 32px;
+    height: 31px;
+}
+.img6{
+    background-image: url("images/IMAGE.png");
+    width: 32px;
+    height: 32px;
+}
+.text{
+    color:gray;
+    font-family: 'Roboto', sans-serif;
+}
+.gray-rectangle{
+    background-image: url("images/Shape 4 copy.png");
+    height: 1px;
+    width: 1200px;
+}
+.page-three-center{
+    padding-right: 18%;
+    padding-left: 18%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.page3-bloc3-1{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5%;
+}
+.page3-bloc3-2{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5%;
+}
+.page3-bloc{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.page-four{
+    background-image: url("images/Layer 45.png");
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+}
+.tablet{
+    background-image: url("images/display bg 768x1024.png");
+    width: 570px;
+    height: 620px
+}
+.iphone{
+    background-image: url("images/White.png");
+    width: 274px;
+    height: 476px;
+}
+.wrapper-tablet{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+.page_container{
+    width: 1217px;
+    margin: auto;
 }
