@@ -368,13 +368,6 @@ font-family: 'Roboto', sans-serif;
     width: 32px;
 }
 .page-two-header__text{
-    /*text-align: center;
-    color:gray;
-    padding: 30px;
-    font-family: 'Roboto', sans-serif;*/
-
-
-
     /*width: 960px;
     height: 130px;*/
     margin-bottom: 95px;
@@ -481,6 +474,8 @@ font-family: 'Roboto', sans-serif;
 }
 .page-five-content__reviews_item{
     margin-bottom: 10px;
+    background-color: white;
+
 }
 .page-five-content__image{
     background-image: url("images/Layer 43.png");
@@ -491,6 +486,7 @@ font-family: 'Roboto', sans-serif;
     background-image: url("images/ARROW _ DOWN.png");
    width: 22px;
     height: 12px;
+
 }
 .page-five-content__reviews-runner{
     background-image: url("images/Rectangle 11 copy.png");
@@ -534,13 +530,10 @@ display: inline-flex;
 justify-content: space-between;
 width: 100%;
 }
-.text-reviews{
-    display: none;
-}
 .icon-text{
     display: inline-flex;
 }
-.reviews-item {
+.reviews-item{
     display: inline-flex;
     align-items: center;
     cursor: pointer;
@@ -548,8 +541,16 @@ width: 100%;
     height: 60px;
     background-color: rgba(0,0,0,0);
     border: 1px solid #e5e5e5;
+    overflow: hidden;
     justify-content: space-between;
 }
+
+#checkbox-1,
+#checkbox-2,
+#checkbox-3 {
+    display: none;}
+
+
 input[type=checkbox] {
     position: absolute;
     cursor: pointer;
@@ -557,19 +558,12 @@ input[type=checkbox] {
     height: 60px;
     margin: 0;
     padding: 0;
-    opacity: 0;}
-
-input[type=checkbox]:checked + .page-five-content__reviews-arrow:before{
-    transform: scaleY(1);
+    opacity: 0;
 }
-input[type=checkbox]:checked + .page-five-content__reviews-arrow:after{
-    transform: scaleY(-1);
-}
-
-input[type=checkbox]:checked +.reviews-item +.text-reviews{
+/*input[type=checkbox]:checked +.reviews-item +.text-reviews{
     display: block;
     width: 600px;
-   height: 181px;
+    height: 181px;
     background-color: rgba(0,0,0,0);
     border-bottom: 1px solid #e5e5e5;
     border-right: 1px solid #e5e5e5;
@@ -577,6 +571,17 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
     overflow: scroll;
     position: relative;
 
+}*/
+.text-reviews{
+    width: 600px;
+    height: 181px;
+    background-color: rgba(0,0,0,0);
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    overflow: scroll;
+    position: relative;
+    display: none;
 }
 .item-name{
    /* margin-right: auto;*/
@@ -586,16 +591,7 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
     font-family: "Montserrat";
     font-weight: 500;
     display: flex;
-
 }
-/*.text-reviews{
-    display: inline-flex;
-    border: 1px solid lightgray;
-    background: white;
-    width: -webkit-fill-available;
-    padding: 10px;
-    justify-content: space-evenly;
-}*/
 .carousel{
     margin-bottom: 50px;
     background-color: #F5F5F5;
@@ -604,13 +600,18 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
 }
 .carousel-container{
     width: 1217px;
-    margin-left: 400px;
+    /*margin-left: 400px;*/
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 .carousel-image-border{
-    background-image: url("images/Rectangle 13.png");
+margin: auto;
     width: 150px;
     height: 150px;
-    margin: auto;
+    background-color: rgba(0,0,0,0);
+    border: 3px solid #95e1d3;
 }
 .carousel-image{
     background-image: url("images/SPEECH 4.png");
@@ -622,22 +623,43 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
     background-image: url("images/ARROW _ DOWN copy 2.png");
     height: 22px;
     width: 12px;
-    margin: 80px;
+}
+.arrow-three{
+    margin-right:80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.arrow-four{
+    margin-left: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .carousel-arrow-right{
     background-image: url("images/ARROW _ DOWN copy 2.png");
     transform: scaleX(-1);
     height: 22px;
     width: 12px;
-    margin: 80px;
 }
 .carousel-text{
-    color:gray;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
     margin-bottom: 35px;
     margin-top: 10px;
-    font-weight: 200;
+    width: 770px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
+}
+.arrow-one {
+    margin-right: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.arrow-two{
+  margin-left: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .carousel-redrectangle{
     background-image: url("images/Rectangle 5.png");
@@ -676,10 +698,9 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
 .block-image-one:hover {
     cursor: pointer;
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 16.png");
-    box-shadow: 10px 10px #00FFFF;
+    box-shadow: 7px 7px #00FFFF;
     margin-left: -15px;
     margin-top: -10px
-
 }
 .block-image-one:hover .block-image-one__networks{
     display: block;
@@ -700,7 +721,7 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 19.png");box-shadow: 10px 10px #00FFFF;
     margin-left: -15px;
     margin-top: -10px;
-    box-shadow: 10px 10px #00FFFF;
+    box-shadow: 7px 7px #00FFFF;
 }
 
 .block-image-three{
@@ -713,17 +734,22 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 18.png");
     margin-left: -15px;
     margin-top: -10px;
-    box-shadow: 10px 10px #00FFFF;
+    box-shadow: 7px 7px #00FFFF;
 }
 
 .page-six-content{
-    display: inline-flex;
-    width: 100%;
+width: 100%;
     justify-content: space-between;
+    display: inline-flex;
+
 }
 .block-text-one{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+
+    font-size: 14px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 600;
+    text-align: center;
 }
 .block-text-two{
     font-family: 'Roboto', sans-serif;
@@ -1044,8 +1070,8 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
     text-align: center;
 }
 .number-data{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat';
+    font-weight: 700;
     font-size: 30px;
 }
 .month{
@@ -1053,6 +1079,11 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
     margin-top: 2px;
     margin-bottom: 10px;
     margin-right: 5px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    text-align: center;
+    font-style:italic;
 }
 .gray-line{
     background-image: url("images/Shape 4 copy.png");
@@ -1082,10 +1113,12 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
     display: inline-flex;
 }
 .name-blog{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
     margin-bottom: 10px;
     margin-top: 5px;
+    font-size: 14px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 600;
 }
 .text-blog{
     color:gray;
@@ -1164,55 +1197,82 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
 }
 .soc-network{
     display: inline-flex;
-    margin-top: 10px;
+
 }
 .email{
     background-image: url("images/Rectangle 25.png");
     height: 41px;
     width: 230px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #cccccc;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
 
 }
 .subscribe{
-    background-image: url("images/Rectangle 17 copy 4.png");
+   background-image: url("images/Rectangle 17 copy 4.png");
     width: 150px;
     height: 46px;
     align-items: center;
-    color: #F5F5F5;
-    font-weight: bold;
-    margin-top: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
 }
 .ten{
     width: 450px;
 }
 .ten-header{
     color: lightgray;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-top: 5px;
 }
 .number-followers__number{
-    font-weight: bold;
     font-size: 20px;
     margin-right: 10px;
 }
 .number-followers__text{
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 4px;
+    margin-top: 2px;
+    font-weight: 500;
 }
 .number-followers{
     display: inline-flex;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
     margin-top: 5px;
+
+    font-size: 18px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 700;
 }
 .email-subscribe{
     display: inline-flex;
+    margin-top: 30px;
 }
 .follow-networks{
     display: inline-flex;
+    margin-top: 20px;
 }
 .page-ten-child-block__image{
     margin-right: 15px;
 
 }
+.page-ten-child-block{
+    margin-bottom: 29px;
+    margin-top: 1px;
+}
+.page-ten-child-block__name{
+    font-size: 15px;
+    line-height: 18px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 600;
+
+}
+
 .one{
     background-image: url("images/photos1.png");
     height: 80px;
@@ -1277,10 +1337,17 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
     margin-right: 10px;
 }
 .ten-text{
-    color:gray;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 35px;
+
+    margin-bottom: 50px;
     margin-top: 10px;
+
+    width: 472px;
+    height: 102px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Roboto";
+    font-weight: 400;
 
 }
 .subscribe__text{
@@ -1290,14 +1357,17 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
 }
 .page-ten-name-block{
     margin-top: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 .view-more{
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: 400;
     font-size: 13px;
+    line-height: 24px;
+    color: #333333;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 22px;
+    margin-bottom: 22px;
 }
 .open{
     margin-left: 575px;
@@ -1307,6 +1377,8 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
 .line-container{
     width: 1217px;
     margin:auto;
+    margin-top: 70px;
+    margin-bottom: 26px;
 }
 .footer-line{
     width: 100%;
@@ -1317,9 +1389,11 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
     width: 1217px;
     margin:auto;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size:15px;
     font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    font-family: "Montserrat";
+
 }
 
 .facebook-two{
@@ -1342,11 +1416,14 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
 }
 .follow-us{
     margin-right: 10px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
 }
-.email-text{
-    text-align: center;
-    padding-top: 10px;
-}
+
 .calendar{
     padding-top: 150px;
 
@@ -1370,3 +1447,15 @@ input[type=checkbox]:checked +.reviews-item +.text-reviews{
     font-weight:700;
     margin-bottom: 20px;
 }
+.page-ten-child-block__data{
+    margin-bottom: 35px;
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
+}
+
+
