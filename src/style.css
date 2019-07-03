@@ -514,6 +514,7 @@ font-family: 'Roboto', sans-serif;
     color:gray;
     font-weight: 100;
     margin: 10px;
+    height: 100%;
 
 
 }
@@ -1167,19 +1168,22 @@ width: 100%;
 }
 .open-map-logo{
     background-image: url("images/PIN 2.png");
-    height: 35px;
+   /* height: 35px;
     width: 27px;
-    background-size: cover;
+    background-size: cover;*/
+    width: 20px;
+    height: 26px;
     margin-left: 595px;
     margin-bottom: 10px;
     margin-top: 2px;
 }
 .open-map-text{
-    color: #F08080;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     text-align: center;
+    font-size: 24px;
+    color: #f38181;
+    font-family: "Montserrat";
+    font-weight: 700;
+
 }
 .page-ten-container{
     width: 1217px;
@@ -1382,11 +1386,7 @@ width: 100%;
     margin-top: 22px;
     margin-bottom: 22px;
 }
-.open{
-    margin-left: 575px;
-    margin-top: 30px;
-    width: 75px;
-}
+
 .line-container{
     width: 1217px;
     margin:auto;
@@ -1439,10 +1439,9 @@ width: 100%;
 
 .calendar{
     padding-top: 150px;
-
 }
 .open-map-wrapper{
-    padding-top: 20px;
+    padding-top: 60px;
 }
 .insta-content{
     padding-bottom: 3px;

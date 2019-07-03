@@ -1,6 +1,10 @@
 
 $(document).ready(function() {
     $('.page-five-content__reviews .reviews-item').on('click', openReview);
+
+   open:(function () {
+       $(".text-reviews").perfectScrollbar();
+   })
 });
 
 function openReview(){
@@ -12,7 +16,4 @@ function openReview(){
 }
 
 
-$('.text-reviews').perfectScrollbar({
-        theme: "dark"
-    }
-);
+
