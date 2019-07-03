@@ -1,19 +1,18 @@
-/*$(function() {
-    $('input:checkbox').click(function() {
-
-        $('#checkbox-1').toggle('slow');
-        /*$('#checkbox-2').toggle('slow');
-        $('#checkbox-3').toggle('slow');
-    });
-});*/
-
 
 $(document).ready(function() {
-    //прикрепляем клик по заголовкам acc-head
     $('.page-five-content__reviews .reviews-item').on('click', openReview);
 });
 
 function openReview(){
-    $('.page-five-content__reviews .text-reviews').not($(this).next()).slideUp(400);
-    $(this).next().slideToggle(400);
+     /*$('.page-five-content__reviews .text-reviews').not($(this).next()).slideUp(400); если нужно сделать так чтобы открыт был только один,дописываем*/
+    var location = $(this).parent();
+    $(".page-five-content__reviews-arrow",location).toggleClass('rotated');
+     $(this).next().slideToggle(400);
+
 }
+
+
+$('.text-reviews').perfectScrollbar({
+        theme: "dark"
+    }
+);

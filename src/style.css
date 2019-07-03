@@ -484,10 +484,19 @@ font-family: 'Roboto', sans-serif;
 }
 .page-five-content__reviews-arrow{
     background-image: url("images/ARROW _ DOWN.png");
-   width: 22px;
+     width: 22px;
     height: 12px;
 
 }
+.rotated {
+    -webkit-transform: rotate(180deg);  /* Chrome, Safari 3.1+ */
+    -moz-transform: rotate(180deg);  /* Firefox 3.5-15 */
+    -ms-transform: rotate(180deg);  /* IE 9 */
+    -o-transform: rotate(180deg);  /* Opera 10.50-12.00 */
+    transform: rotate(180deg);  /* Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+
 .page-five-content__reviews-runner{
     background-image: url("images/Rectangle 11 copy.png");
     height: 90px;
@@ -505,6 +514,8 @@ font-family: 'Roboto', sans-serif;
     color:gray;
     font-weight: 100;
     margin: 10px;
+
+
 }
 .page-five-content__reviews-item-image1{
     background-image: url("images/PICTURE.png");
@@ -545,11 +556,6 @@ width: 100%;
     justify-content: space-between;
 }
 
-#checkbox-1,
-#checkbox-2,
-#checkbox-3 {
-    display: none;}
-
 
 input[type=checkbox] {
     position: absolute;
@@ -560,6 +566,7 @@ input[type=checkbox] {
     padding: 0;
     opacity: 0;
 }
+
 /*input[type=checkbox]:checked +.reviews-item +.text-reviews{
     display: block;
     width: 600px;
@@ -576,13 +583,18 @@ input[type=checkbox] {
     width: 600px;
     height: 181px;
     background-color: rgba(0,0,0,0);
-    border-bottom: 1px solid #e5e5e5;
+   border-bottom: 1px solid #e5e5e5;
     border-right: 1px solid #e5e5e5;
     border-left: 1px solid #e5e5e5;
-    overflow: scroll;
+    overflow: auto;
     position: relative;
     display: none;
 }
+.ps__rail-x,
+.ps__rail-y {
+    opacity: 0.6;
+}
+
 .item-name{
    /* margin-right: auto;*/
    align-items: center;
@@ -592,6 +604,7 @@ input[type=checkbox] {
     font-weight: 500;
     display: flex;
 }
+
 .carousel{
     margin-bottom: 50px;
     background-color: #F5F5F5;
