@@ -1,10 +1,10 @@
 
 $(document).ready(function() {
     $('.page-five-content__reviews .reviews-item').on('click', openReview);
+    $('.text-reviews').each(function()
+    { const ps = new PerfectScrollbar($(this)[0]);
+        });
 
-   open:(function () {
-       $(".text-reviews").perfectScrollbar();
-   })
 });
 
 function openReview(){

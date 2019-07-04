@@ -74,7 +74,7 @@ body{
 .page-one-content{
     margin-bottom: 100px;
  }
-.page-one-content__text1{
+.page-one-content__text-one{
     font-size: 72px;
     color: #ffffff;
     font-family: "Kaushan Script";
@@ -86,7 +86,7 @@ body{
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
  font-family: 'Kaushan Script', cursive;*/
-.page-one-content__text2{
+.page-one-content__text-two{
     font-size: 150px;
     line-height: 140px;
     color: #ffffff;
@@ -122,14 +122,14 @@ font-family: 'Roboto', sans-serif;
     font-family: "Montserrat";
     font-weight: 700;
 }
-.page-one-footer1{
+.page-one-footer-one{
     display: inline-flex;
     justify-content: space-between;
     margin-top: 10px;
    /* width: 100%;*/
     margin-bottom: 30px;
 }
-.page-one-footer1__first-child{
+.page-one-footer-one__first-child{
     display: inline-flex;
     margin-right: 30px;
 }
@@ -143,7 +143,7 @@ font-family: 'Roboto', sans-serif;
     height: 3px;
     width: 210px;
 }
-.page-one-footer1__lastchild{
+.page-one-footer-one__lastchild{
     background-image: url("images/Rectangle 41.png");
     width: 280px;
     height: 3px;
@@ -157,7 +157,7 @@ font-family: 'Roboto', sans-serif;
     margin-top: 45px;
     margin-bottom: 40px;
 }
-.page-one-footer2__child{
+.page-one-footer-two__child{
     display: inline-flex;
     font-size: 24px;
     color: #ffffff;
@@ -165,7 +165,7 @@ font-family: 'Roboto', sans-serif;
 
 }
 
-.page-one-footer2__child-number{
+.page-one-footer-two__child-number{
     margin-right: 10px;
    /* color:white;
     font-size: 35px;
@@ -173,7 +173,7 @@ font-family: 'Roboto', sans-serif;
     font-weight: bold;*/
     font-weight: 700;
 }
-.page-one-footer2__child-text{
+.page-one-footer-two__child-text{
     /*color:white;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
@@ -190,7 +190,7 @@ font-family: 'Roboto', sans-serif;
     width: 1217px;
     margin: auto;
 }
-.page-header__text1{
+.page-header__text-first{
     text-align: center;
     font-family: 'Kaushan Script', cursive;
     margin-top: 35px;
@@ -198,7 +198,7 @@ font-family: 'Roboto', sans-serif;
     margin-bottom: 5px;
     padding-top: 65px;
 }
-.page-header__text2{
+.page-header__text-last{
     text-align: center;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -219,7 +219,7 @@ font-family: 'Roboto', sans-serif;
 
 }
 
-.page-two-content__block-images__img1{
+.page-two-content__block-images__img-one{
     background-image: url("images/Layer 44.png");
     width: 380px;
     height: 250px;
@@ -230,21 +230,21 @@ font-family: 'Roboto', sans-serif;
     position:relative;
 
 }
-.page-two-content__block-images__img1:hover{
+.page-two-content__block-images__img-one:hover{
     margin-left: -15px;
     margin-top: -10px;
     cursor: pointer;
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 44.png");
     box-shadow: 10px 10px #00FFFF;
 }
-.page-two-content__block-images__img2:hover{
+.page-two-content__block-images__img-two:hover{
     margin-left: -15px;
      margin-top: -10px;
     cursor: pointer;
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 39.png");
     box-shadow: 10px 10px #00FFFF;
 }
-.page-two-content__block-images__img3:hover{
+.page-two-content__block-images__img-three:hover{
     margin-left: -15px;
      margin-top: -10px;
     cursor: pointer;
@@ -258,7 +258,7 @@ font-family: 'Roboto', sans-serif;
     padding-left: 120px;
     padding-top: 100px;
 }
-.page-seven-content__block-two-image2__signature{
+.page-seven-content__signature{
     display: none;
     position:absolute;
 }
@@ -271,17 +271,17 @@ font-family: 'Roboto', sans-serif;
     margin-left: 40px;
 
 }
-.page-two-content__block-images__img1:hover .page-two__super-team {
+.page-two-content__block-images__img-one:hover .page-two__super-team {
     display:block;
 }
 
-.bloc3-img1-users{
+.block-users{
     background-image: url("images/USERS.png");
     width: 32px;
     height: 23px;
    /* margin-left: 176px;*/
 }
-.bloc3-img1-text{
+.text__super-team{
     text-align: center;
    /* margin-top: 100px;
     margin-bottom: 5px;*/
@@ -292,25 +292,25 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-.page-two-content__block-images__img2{
+.page-two-content__block-images__img-two{
     background-image: url("images/Layer 39.png");
     width: 380px;
     height: 250px;
     display: inline-flex;
     position:relative;
 }
-.page-two-content__block-images__img2:hover .page-two__super-team {
+.page-two-content__block-images__img-two:hover .page-two__super-team {
     display:block;
 }
 
-.page-two-content__block-images__img3{
+.page-two-content__block-images__img-three{
     background-image: url("images/Layer 41.png");
     width: 380px;
     height: 250px;
     display: inline-flex;
     position:relative;
 }
-.page-two-content__block-images__img3:hover .page-two__super-team {
+.page-two-content__block-images__img-three:hover .page-two__super-team {
     display:block;
 }
 
@@ -357,12 +357,12 @@ font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-align: center;
 }
-.img1{
+.clock{
     background-image: url("images/ALARM.png");
     height: 31px;
     width: 32px;
 }
-.img2{
+.graph{
     background-image: url("images/LINE GRAPH.png");
     height: 32px;
     width: 32px;
@@ -378,22 +378,22 @@ font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-align: center;
 }
-.img3{
+.computer{
     background-image: url("images/COMPUTER _ OK.png");
     width: 32px;
     height: 28px;
 }
-.img4{
+.book{
     background-image: url("images/BOOK 2.png");
     width: 32px;
     height: 32px;
 }
-.img5{
+.home{
     background-image: url("images/HOME.png");
     width: 32px;
     height: 31px;
 }
-.img6{
+.digital{
     background-image: url("images/IMAGE.png");
     width: 32px;
     height: 32px;
@@ -515,8 +515,7 @@ font-family: 'Roboto', sans-serif;
     font-weight: 100;
     margin: 10px;
     height: 100%;
-
-
+    width: 525px;
 }
 .page-five-content__reviews-item-image1{
     background-image: url("images/PICTURE.png");
@@ -594,6 +593,7 @@ input[type=checkbox] {
 .ps__rail-x,
 .ps__rail-y {
     opacity: 0.6;
+    color: #00FFFF;
 }
 
 .item-name{
@@ -853,55 +853,55 @@ width: 100%;
     width: 1217px;
     margin:auto;
 }
-.page-seven-content__block-one-image1{
+.page-seven-content__block-one-image-first{
     background-image: url("images/Layer 26.png");
     width: 480px;
     height: 390px;
 }
-.page-seven-content__block-one-image1:hover{
+.page-seven-content__block-one-image-first:hover{
     cursor: pointer;
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 26.png");
 }
-.page-seven-content__block-one-image1:hover .page-seven-content__block-two-image2__signature{
+.page-seven-content__block-one-image-first:hover .page-seven-content__signature{
  display: block;
 }
 
-.page-seven-content__block-one-image2{
+.page-seven-content__block-one-image-last{
     background-image: url("images/Layer 35.png");
     width: 480px;
     height: 390px;
 }
-.page-seven-content__block-one-image2:hover{
+.page-seven-content__block-one-image-last:hover{
     cursor: pointer;
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 35.png");
 }
-.page-seven-content__block-one-image2:hover .page-seven-content__block-two-image2__signature{
+.page-seven-content__block-one-image-last:hover .page-seven-content__signature{
     display: block;
 }
 
-.page-seven-content__block-two-image1{
+.page-seven-content__block-two-image-first{
     background-image: url("images/Layer 33.png");
     height: 390px;
     width: 480px;
 }
-.page-seven-content__block-two-image1:hover{
+.page-seven-content__block-two-image-first:hover{
     cursor: pointer;
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 33.png");
 }
-.page-seven-content__block-two-image1:hover .page-seven-content__block-two-image2__signature{
+.page-seven-content__block-two-image-first:hover .page-seven-content__signature{
     display: block;
 }
 
-.page-seven-content__block-two-image2{
+.page-seven-content__block-two-image-last{
     background-image: url("images/Layer 29.png");
     width: 480px;
     height: 390px;
 }
-.page-seven-content__block-two-image2:hover{
+.page-seven-content__block-two-image-last:hover{
     cursor: pointer;
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 29.png");
 }
-.page-seven-content__block-two-image2:hover .page-seven-content__block-two-image2__signature{
+.page-seven-content__block-two-image-last:hover .page-seven-content__signature{
     display: block;
 }
 
@@ -914,32 +914,32 @@ width: 100%;
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 34.png");
     cursor: pointer;
 }
-.page-seven-content_block-three:hover .page-seven-content__block-two-image2__signature{
+.page-seven-content_block-three:hover .page-seven-content__signature{
     display: block;
 }
 
-.page-seven-content__block-four-image1{
+.page-seven-content__block-four-image-first{
     background-image: url("images/Layer 31.png");
     height: 390px;
     width: 480px;
 }
-.page-seven-content__block-four-image1:hover{
+.page-seven-content__block-four-image-first:hover{
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 31.png");
     cursor: pointer;
 }
-.page-seven-content__block-four-image1:hover .page-seven-content__block-two-image2__signature{
+.page-seven-content__block-four-image-first:hover .page-seven-content__signature{
     display: block;
 }
-.page-seven-content__block-four-image2{
+.page-seven-content__block-four-image-last{
     background-image: url("images/Layer 32.png");
     width: 480px;
     height: 390px;
 }
-.page-seven-content__block-four-image2:hover{
+.page-seven-content__block-four-image-last:hover{
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 32.png");
     cursor: pointer;
 }
-.page-seven-content__block-four-image2:hover .page-seven-content__block-two-image2__signature{
+.page-seven-content__block-four-image-last:hover .page-seven-content__signature{
     display: block;
 }
 .page-seven-content{
@@ -959,20 +959,22 @@ width: 100%;
     margin-bottom: 10px;
     margin-top: 15px;
 }
-.page-seven-content-block-two__text1{
+.page-seven-content__text-first{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color:white;
     margin-bottom: 5px;
     margin-top: 10px;
+    text-align: center;
 }
-.page-seven-content-block-two__text2{
+.page-seven-content__text-last{
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     color: white;
     font-weight: 100;
+    text-align: center;
 }
-.page-seven-content__block-two-image2__signature{
+.page-seven-content__signature{
    padding: 150px;
 }
 .carousel-two-image{
@@ -989,7 +991,7 @@ width: 100%;
     height: 830px;
 }
 .page-eight-content{
-    margin-top: 100px;
+    margin-top: 70px;
     margin-bottom: 50px;
 }
 .page-eight-content_block-one-first-child-image{
@@ -1008,7 +1010,7 @@ width: 100%;
     display: inline-flex;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 62px;
     margin-top: 10px;
 }
 .page-eight-container{
@@ -1120,7 +1122,7 @@ width: 100%;
     display: inline-flex;
 }
 .views{
-    margin-right: 15px;
+    margin-right: 20px;
     display: inline-flex;
 }
 .comments{
@@ -1217,7 +1219,7 @@ width: 100%;
 
 }
 .email{
-    background-image: url("images/Rectangle 25.png");
+    /*background-image: url("images/Rectangle 25.png");*/
     height: 41px;
     width: 230px;
     font-size: 15px;
@@ -1226,10 +1228,12 @@ width: 100%;
     font-family: "Roboto";
     font-weight: 300;
     font-style: italic;
+    background-color: #ffffff;
+    border: 1px solid #e7e7e7;
 
 }
 .subscribe{
-   background-image: url("images/Rectangle 17 copy 4.png");
+   /*background-image: url("images/Rectangle 17 copy 4.png");*/
     width: 150px;
     height: 46px;
     align-items: center;
@@ -1238,6 +1242,7 @@ width: 100%;
     font-family: "Montserrat";
     font-weight: 700;
     text-align: center;
+    background-color: #95e1d3;
 }
 .ten{
     width: 450px;
@@ -1452,7 +1457,7 @@ width: 100%;
     height: 471px;
 
 }
-.name{
+.title {
     font-size: 14px;
     color: #333333;
     font-family: "Montserrat";
