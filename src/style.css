@@ -24,7 +24,7 @@ body{
     display:inline-flex;
 }
 .page-one-header__logo{
-    font-size: 30px;
+    font-size: 40px;
     color: #ffffff;
     font-family: "Montserrat";
     font-weight: 700;
@@ -193,10 +193,10 @@ font-family: 'Roboto', sans-serif;
 .page-header__text-first{
     text-align: center;
     font-family: 'Kaushan Script', cursive;
-    margin-top: 35px;
+    /*margin-top: 35px;*/
     font-size: 30px;
     margin-bottom: 5px;
-    padding-top: 65px;
+    padding-top: 93px;
 }
 .page-header__text-last{
     text-align: center;
@@ -223,33 +223,35 @@ font-family: 'Roboto', sans-serif;
     background-image: url("images/Layer 44.png");
     width: 380px;
     height: 250px;
-    /*  margin-bottom: 10px;
-     margin-left: -15px;
-     margin-top: -10px;*/
     display: inline-flex;
     position:relative;
 
 }
 .page-two-content__block-images__img-one:hover{
-    margin-left: -15px;
-    margin-top: -10px;
+   /* margin-left: -15px;
+    margin-top: -10px;*/
+    top:-10px;
+    left:-5px;
     cursor: pointer;
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 44.png");
-    box-shadow: 10px 10px #00FFFF;
+    box-shadow: 9px 9px #95e1d3;
 }
+
 .page-two-content__block-images__img-two:hover{
-    margin-left: -15px;
-     margin-top: -10px;
+    top:-10px;
+    left:-5px;
     cursor: pointer;
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 39.png");
-    box-shadow: 10px 10px #00FFFF;
+    box-shadow: 9px 9px #95e1d3;
 }
 .page-two-content__block-images__img-three:hover{
-    margin-left: -15px;
-     margin-top: -10px;
+   /* margin-left: -15px;
+     margin-top: -10px;*/
+    top:-10px;
+    left:-5px;
     cursor: pointer;
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 41.png");
-    box-shadow: 10px 10px #00FFFF;
+    box-shadow: 9px 9px #95e1d3;
 }
 .page-two__super-team{
     display: none;
@@ -486,6 +488,7 @@ font-family: 'Roboto', sans-serif;
     background-image: url("images/ARROW _ DOWN.png");
      width: 22px;
     height: 12px;
+    margin-right: 20px;
 
 }
 .rotated {
@@ -607,7 +610,6 @@ input[type=checkbox] {
 }
 
 .carousel{
-    margin-bottom: 50px;
     background-color: #F5F5F5;
     width: 100%;
     margin-top: 80px;
@@ -687,8 +689,18 @@ margin: auto;
 }
 .carousel-container-block{
     display: inline-flex;
+    overflow: hidden;
 }
 .carousel-content{
+   /*width: 1026px;*/
+    list-style: none;
+    height: 241px;
+    display: flex;
+}
+.carousel-content-two{
+    display: inline-flex;
+}
+.carousel-content__child{
     display:inline-flex;
 }
 .carousel-content_text-signature {
@@ -696,6 +708,10 @@ margin: auto;
 }
 .carousel-signature-rectangle{
     display: inline-flex;
+
+}
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
 
 }
 .page-six-conteiner{
@@ -706,15 +722,16 @@ margin: auto;
     background-image: url("images/Layer 16.png");
     width: 380px;
     height: 470px;
-   /* margin-left: -10px;*/
-    margin-bottom: 10px;
+   /* margin-left: -10px;
+    margin-bottom: 10px;*/
+    position: relative;
 }
 .block-image-one:hover {
     cursor: pointer;
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 16.png");
-    box-shadow: 7px 7px #00FFFF;
-    margin-left: -15px;
-    margin-top: -10px
+    box-shadow: 10px 10px #95e1d3;
+    top:-10px;
+    left:-5px;
 }
 .block-image-one:hover .block-image-one__networks{
     display: block;
@@ -729,26 +746,29 @@ margin: auto;
     background-image: url("images/Layer 19.png");
     height: 470px;
     width: 380px;
+    position: relative;
 }
 .block-image-two:hover {
     cursor: pointer;
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 19.png");box-shadow: 10px 10px #00FFFF;
-    margin-left: -15px;
-    margin-top: -10px;
-    box-shadow: 7px 7px #00FFFF;
+    top:-10px;
+    left:-5px;
+    box-shadow: 10px 10px  #95e1d3;
+
 }
 
 .block-image-three{
     background-image: url("images/Layer 18.png");
     width: 380px;
     height: 470px;
+    position: relative;
 }
 .block-image-three:hover {
     cursor: pointer;
     background-image: linear-gradient(to top, rgba(231, 211, 89, .85) 0%, rgba(186, 106, 104, .85) 100%), url("images/Layer 18.png");
-    margin-left: -15px;
-    margin-top: -10px;
-    box-shadow: 7px 7px #00FFFF;
+    top:-10px;
+    left:-5px;
+    box-shadow: 10px 10px  #95e1d3;
 }
 
 .page-six-content{
@@ -844,7 +864,7 @@ width: 100%;
     height: 127px;
 }
 .block-company-container{
-    margin-bottom: 100px;
+
     width: 1217px;
     margin-left: 370px;
     margin-top: 100px;
@@ -991,8 +1011,8 @@ width: 100%;
     height: 830px;
 }
 .page-eight-content{
-    margin-top: 70px;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 120px;
 }
 .page-eight-content_block-one-first-child-image{
  background-image: url("images/Layer 47.png");
@@ -1010,7 +1030,7 @@ width: 100%;
     display: inline-flex;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 62px;
+    margin-bottom: 70px;
     margin-top: 10px;
 }
 .page-eight-container{
@@ -1018,13 +1038,18 @@ width: 100%;
     width: 1217px;
 }
 .review-client{
-    color:gray;
-    font-family: 'Roboto', sans-serif;
+    width: 389px;
+   /* height: 129px;*/
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 .name-client{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
     margin-top: 5px;
 
 
@@ -1035,14 +1060,14 @@ width: 100%;
     color: black;
     font-weight: 100;
     margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .rectangle-client{
     background-image: url("images/Rectangle 5.png");
     width: 60px;
     height: 3px;
     margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .page-eight-content_block-one-child{
     display: inline-flex;
@@ -1085,6 +1110,9 @@ width: 100%;
     color:white;
     text-align: center;
 }
+.blog-images{
+    margin-bottom: 20px;
+}
 .number-data{
     font-family: 'Montserrat';
     font-weight: 700;
@@ -1105,6 +1133,7 @@ width: 100%;
     background-image: url("images/Shape 4 copy.png");
     height: 1px;
     width: 385px;
+    margin-bottom: 20px;
 }
 .eye{
     background-image: url("images/VIEW.png");
@@ -1124,12 +1153,14 @@ width: 100%;
 .views{
     margin-right: 20px;
     display: inline-flex;
+    align-items: center;
 }
 .comments{
     display: inline-flex;
+    align-items: center;
 }
 .name-blog{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: 5px;
     font-size: 14px;
     color: #333333;
@@ -1137,10 +1168,14 @@ width: 100%;
     font-weight: 600;
 }
 .text-blog{
-    color:gray;
-    font-family: 'Roboto', sans-serif;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    width: 380px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 .blog-images__img-two{
     background-image: url("images/Layer 55.png");
@@ -1153,6 +1188,9 @@ width: 100%;
     width: 100%;
     margin-bottom: 100px;
     margin-top: 50px;
+}
+.page-nine-content-child{
+    width: 384px;
 }
 .blog-images__img-three{
     background-image: url("images/Layer 57.png");
@@ -1216,7 +1254,7 @@ width: 100%;
 }
 .soc-network{
     display: inline-flex;
-
+    align-items: center;
 }
 .email{
     /*background-image: url("images/Rectangle 25.png");*/
@@ -1243,18 +1281,23 @@ width: 100%;
     font-weight: 700;
     text-align: center;
     background-color: #95e1d3;
+    border: 0;
+    padding: 0;
+
 }
+
 .ten{
     width: 450px;
 }
 .ten-header{
     color: lightgray;
-    margin-bottom: 40px;
-    margin-top: 5px;
+    margin-bottom: 35px;
+    margin-top: 70px;
+    font-size: 37px;
 }
 .number-followers__number{
     font-size: 20px;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .number-followers__text{
     margin-top: 2px;
@@ -1276,14 +1319,14 @@ width: 100%;
 }
 .follow-networks{
     display: inline-flex;
-    margin-top: 20px;
+
 }
 .page-ten-child-block__image{
     margin-right: 15px;
 
 }
 .page-ten-child-block{
-    margin-bottom: 29px;
+    margin-bottom: 44px;
     margin-top: 1px;
 }
 .page-ten-child-block__name{
@@ -1291,7 +1334,8 @@ width: 100%;
     line-height: 18px;
     color: #333333;
     font-family: "Montserrat";
-    font-weight: 600;
+    font-weight: 500;
+    color: #333333;
 
 }
 
@@ -1357,12 +1401,11 @@ width: 100%;
 }
 .page-ten-child{
     margin-right: 10px;
+
 }
 .ten-text{
-
-    margin-bottom: 50px;
-    margin-top: 10px;
-
+    margin-bottom: 45px;
+    margin-top: 5px;
     width: 472px;
     height: 102px;
     font-size: 15px;
@@ -1378,7 +1421,7 @@ width: 100%;
     margin-left: 30px;
 }
 .page-ten-name-block{
-    margin-top: 5px;
+    margin-top: 80px;
     margin-bottom: 40px;
 }
 .view-more{
@@ -1395,19 +1438,18 @@ width: 100%;
 .line-container{
     width: 1217px;
     margin:auto;
-    margin-top: 70px;
+   /* margin-top: 70px;*/
     margin-bottom: 26px;
 }
 .footer-line{
     width: 100%;
-    margin-bottom: 20px;
-    margin-top:100px;
+    margin-bottom: 23px;
 }
 .footer{
     width: 1217px;
     margin:auto;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
     color: #333333;
     font-family: "Montserrat";
@@ -1433,7 +1475,7 @@ width: 100%;
     margin-right: 10px;
 }
 .follow-us{
-    margin-right: 10px;
+    margin-right: 20px;
     font-size: 15px;
     line-height: 24px;
     color: #999999;
@@ -1465,7 +1507,7 @@ width: 100%;
     margin-bottom: 20px;
 }
 .page-ten-child-block__data{
-    margin-bottom: 35px;
+   /* margin-bottom: 35px;*/
     margin-top: 10px;
     font-size: 13px;
     line-height: 24px;
@@ -1475,4 +1517,31 @@ width: 100%;
     font-style: italic;
 }
 
+.сarousel-text-two {
+    font-size: 24px;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    width: 770px;
 
+    line-height: 24px;
+    color: #999999;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
+}
+.number-eye{
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
+}
+.number-message{
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
+}
