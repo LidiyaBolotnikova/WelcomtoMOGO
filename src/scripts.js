@@ -9,9 +9,8 @@ $(document).ready(function() {
     var rightUiEl = $(document.querySelector(".carousel-arrow-right"));
 
     var elementsList = $(".carousel-content");
-    var elemWidth = 1046,
+    var elemWidth = 1010,
         elemOffset = 20,
-        elemTotalWidth = 1046,
         currentLeftValue = 0,
         elementsCount = elementsList.find(".carousel-content__child").length,
         listWidth=(elementsCount-1) * elemWidth,
@@ -30,6 +29,30 @@ $(document).ready(function() {
             elementsList.animate({ marginLeft : currentLeftValue + "px"}, 500);
         }
     });
+
+    var leftUIEltwo= $(document.querySelector(".arrow-three"));
+    var rightUiEltwo = $(document.querySelector(".arrow-four"));
+    var elementsListTwo = $(".carousel-content-two");
+    var elemWidthTwo = 1050,
+        currentLeftValuetwo = 0,
+        elementsCountTwo = elementsListTwo.find(".carousel-two-content__child").length,
+        listWidthTwo=(elementsCountTwo-1) * elemWidthTwo,
+        maximumOffsetTwo = 0;
+
+    leftUIEltwo.click(function() {
+        if (currentLeftValuetwo != maximumOffsetTwo) {
+            currentLeftValuetwo += listWidthTwo;
+            elementsListTwo.animate({ marginLeft : currentLeftValuetwo + "px"}, 500);
+        }
+    });
+
+    rightUiEltwo.click(function(){
+        if (Math.abs(currentLeftValuetwo) < listWidthTwo) {
+            currentLeftValuetwo -= listWidthTwo;
+            elementsListTwo.animate({ marginLeft : currentLeftValuetwo + "px"}, 500);
+        }
+    });
+
 
 });
 
