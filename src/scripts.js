@@ -33,7 +33,7 @@ $(document).ready(function() {
     var leftUIEltwo= $(document.querySelector(".arrow-three"));
     var rightUiEltwo = $(document.querySelector(".arrow-four"));
     var elementsListTwo = $(".carousel-content-two");
-    var elemWidthTwo = 1050,
+    var elemWidthTwo = 960,
         currentLeftValuetwo = 0,
         elementsCountTwo = elementsListTwo.find(".carousel-two-content__child").length,
         listWidthTwo=(elementsCountTwo-1) * elemWidthTwo,
